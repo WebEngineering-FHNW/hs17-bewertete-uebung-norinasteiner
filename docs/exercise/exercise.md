@@ -2,9 +2,23 @@
 
 ## Commit Proposal
 
-Matriculation Number: <to be filled by student>
+Matriculation Number: 15-652-464
 
 Project idea short description: 
+
+Ich würde gerne ihre Socrative Idee umsetzen.
+Priorität 1:
+Es gibt die beschriebenen Schüler und Lehrer Sektion. 
+Lehrer kann offene Fragen erfassen.
+Schüler sehen alle Fragen und können diese beantworten.
+Der Lehrer kann dann jeweils einen Bericht erstellen lassen.
+
+Priorität 2:
+Der Lehrer kann weitere Fragentypen erfassen wie zum Beispiel Multiple Choice Fragen.
+Die Schüler finden die Fragen anhand des Gruppennamens und füllen sie aus. 
+
+Priorität 3:
+Die Lehrer Sektion ist Passwortgeschützt.
 
 
 ## Project confirmation
