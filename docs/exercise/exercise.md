@@ -23,8 +23,10 @@ Die Lehrer Sektion ist Passwortgeschützt.
 
 ## Project confirmation
 
-< to be filled by lecturer>
+confirmed.
 
+Die Passwort-Funktionalität würde ich rausnehmen.
+Für diese Übung reicht es, wenn sich der user selbst als Schüler oder Lehrer identifiziert.
 
 ## Project delivery <to be filled by student>
 
