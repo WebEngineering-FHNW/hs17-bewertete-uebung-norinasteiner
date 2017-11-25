@@ -12,7 +12,7 @@ import spock.lang.Specification
 class AnswerControllerSpec extends Specification {
 
     def setup() {
-        new Question(text: "test").save()
+        new Question(text: "test", isTextQuestion: true).save()
     }
 
     def populateValidParams(params) {
@@ -40,7 +40,7 @@ class AnswerControllerSpec extends Specification {
     }
 
     void "Test with two questions" () {
-        new Question(text: "Test2").save()
+        new Question(text: "Test2", isTextQuestion: true).save()
 
         when:"The save action is executed"
         response.reset()

@@ -11,6 +11,7 @@ class QuestionControllerSpec extends Specification {
         assert params != null
 
         params["text"] = 'Was gibt 5+5?'
+        params["isTextQuestion"] = true
     }
 
     void "Test the create action returns the correct model"() {
@@ -45,6 +46,20 @@ class QuestionControllerSpec extends Specification {
             response.redirectedUrl == '/question/show/1'
             controller.flash.message != null
             Question.count() == 1
+
+        when:"The save action is executed with a valid instance"
+            response.reset()
+            populateValidParams(params)
+            params["isTextQuestion"] = false
+            question = new Question(params)
+
+            controller.save(question)
+
+        then:"A redirect is issued to the show action"
+            response.redirectedUrl == '/question/show/2'
+            controller.flash.message != null
+            Question.count() == 2
+
     }
 
     void "Test that the show action returns the correct model"() {

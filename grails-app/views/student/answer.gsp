@@ -10,11 +10,19 @@
     <h1>Frage ${this.question.id}</h1>
     <p>${this.question.text}</p>
     <form action="/answer/save" method="post">
-        <textarea name="text" rows="10" placeholder="Bitte Antwort eingeben" cols="30"></textarea>
-
         <input type="hidden" name="question" value="${this.question.id}">
+        <g:if test="${this.question.isTextQuestion}">
+            <textarea name="text" rows="10" placeholder="Bitte Antwort eingeben" cols="30"></textarea>
 
-        <input type="submit">
+
+            <input type="submit">
+        </g:if>
+        <g:else>
+            <input type="submit" name="text" value="true">
+            <input type="submit" name="text" value="false">
+
+        </g:else>
+
     </form>
 </div>
 </body>

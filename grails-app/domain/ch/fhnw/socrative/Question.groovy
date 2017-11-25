@@ -7,9 +7,15 @@ class Question {
     static hasMany = [answers:Answer]
 
     String text
+    Boolean isTextQuestion = true
 
 
     static constraints = {
         answers(nullable: true)
     }
+
+
+
+
+
 }
