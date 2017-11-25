@@ -23,6 +23,11 @@
             <div class="pagination">
                 <g:paginate total="${questionCount ?: 0}" />
             </div>
+            <div class="lnkButton">
+                <a href="/teacher/report"><button>Report ausgeben</button></a>
+
+            </div>
+
         </div>
     </body>
 </html>

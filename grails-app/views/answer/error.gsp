@@ -1,0 +1,1 @@
+<g:message error="${error}"/>

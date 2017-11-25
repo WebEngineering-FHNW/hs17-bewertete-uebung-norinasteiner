@@ -51,6 +51,17 @@
         </div>
     </div>
 
+
+<div class="lnkButton">
+    <a href="/teacher/index"><button>Lehrer</button></a>
+
+</div>
+
+<div class="lnkButton">
+    <a href="/student/index"><button>Schüler</button></a>
+</div>
+
+
     <div id="content" role="main">
         <section class="row colset-2-its">
             <h1>Welcome to Grails</h1>

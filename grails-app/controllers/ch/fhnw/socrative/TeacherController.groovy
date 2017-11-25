@@ -8,4 +8,8 @@ class TeacherController {
     }
 
 
+    def report(){
+        respond Question.list()
+    }
+
 }
