@@ -97,3 +97,37 @@
 
 </body>
 </html>
+
+%{--<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Socrative</title>
+    <asset:javascript src="jquery-2.2.0.min.js"/>
+    <asset:stylesheet src="bootstrap.css"/>
+    <asset:javascript src="bootstrap.js"/>
+    <asset:stylesheet src="stylesheet.css"/>
+</head>
+
+<body>
+<div class="body">
+    <div class="circle">
+        <div id="containerIndex">
+            <h1 id="indexTitle">Socrative Light</h1>
+
+            <div id="createTeacher" class="btn" type="button">
+                <a href="/teacher/index"><button>Lehrer</button></a>
+
+            </div>
+
+            <div id="createForStudent" class="btn" type="button">
+                <a href="/student/index"><button>Schüler</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>--}%
+
