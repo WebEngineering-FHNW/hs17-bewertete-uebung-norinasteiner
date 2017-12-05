@@ -1,0 +1,129 @@
+/* page index */
+
+.tsButton{
+    background-color: #973F3F;
+    border: none;
+}
+
+.tsButton:hover{
+    background-color: #424242;
+    border: none;
+}
+
+
+.footer{
+    background-color: #292b2c;
+    color: #000;
+    clear: both;
+    font-size: 0.8em;
+    margin-top: 1.5em;
+    padding: 1em;
+    min-height: 1em;
+
+}
+
+
+.grails-logo-container {
+    background:#973F3F no-repeat 50% 30%;
+    margin-bottom: 20px;
+    color: white;
+    height:300px;
+    text-align:center;
+}
+
+.navbar {
+    background-color: #292b2c; !important;
+    height: 80px;
+    margin-bottom: 0px;
+}
+
+.h1 {
+    font-family: "Caflisch Script";
+}
+
+
+
+
+
+
+
+
+
+/*
+
+
+#containerIndex {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#indexTitle {
+    padding-bottom: 30px;
+}
+
+#createForTeacher {
+    font-size: 18px;
+}
+
+#createForStudent {
+    font-size: 18px;
+    text-align: right;
+}
+
+#resultForTeacher {
+    font-size: 18px;
+}
+
+.circle {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(192, 192, 192, 0.29);
+    -moz-border-radius: 400px;
+    -webkit-border-radius: 400px;
+    border-radius: 400px;
+}
+
+!* navbar *!
+.navbar-default {
+    background-color: #292b2c; !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+body > .container {
+    width: 500px;
+    padding-top: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+label {
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+input {
+    height: 28px !important;
+}
+
+*/

@@ -233,12 +233,12 @@ a.navbar-brand {
     float: right;
 }
 
-@media (max-width: 1010px) {
+/*@media (max-width: 1010px) {
     .event-logo {
         height: ;
-    }
+    }*/
 
-}
+
 
 @media (max-width: 690px) {
     .event-logo {
@@ -623,7 +623,7 @@ h8 {
     clear: both
 }
 
-#content .colset-2-its article .icon {
+/*#content .colset-2-its article .icon {
     display: block;
     width: 80px;
     height: 80px;
@@ -631,7 +631,7 @@ h8 {
     float: left;
     margin-top: 12px;
     margin-right: 15px
-}
+}*/
 
 #content .colset-2-its article .icon.icon-1 {
     background-position: 0 0
