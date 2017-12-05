@@ -7,6 +7,11 @@ import static org.springframework.http.HttpStatus.CREATED
 @Transactional(readOnly = false)
 class AnswerController {
 
+
+    def show(Answer answer) {
+        respond answer
+    }
+
     @Transactional
     def save(Answer answer) {
 
