@@ -34,7 +34,7 @@ How to start the project: (if other than `grailsw run-app`)
 
 How to test the project:  (if other than `grailsw test-app`)
 
-Project description:      (if other than `/index.html`)
+Project description:      (if other than `/index.html`) hs17-bewertete-uebung-norinasteiner/src/main/resources/public/index.html
 
 External contributions:
 
