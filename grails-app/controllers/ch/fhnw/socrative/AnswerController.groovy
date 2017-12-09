@@ -7,11 +7,12 @@ import static org.springframework.http.HttpStatus.CREATED
 @Transactional(readOnly = false)
 class AnswerController {
 
-
+    //show answer from question
     def show(Answer answer) {
         respond answer
     }
 
+    // save created answer
     @Transactional
     def save(Answer answer) {
 
@@ -26,7 +27,7 @@ class AnswerController {
         if (answer.question.id < Question.count)
             redirect(controller: "student", action: "answer", id: answer.question.id + 1)
         else
-            render view:"/index"
+            render view: "/index"
     }
 
 
