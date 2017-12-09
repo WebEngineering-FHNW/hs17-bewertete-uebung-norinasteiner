@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <asset:stylesheet src="bootstrap.css"/>
+    <asset:javascript src="bootstrap.js"/>
+    <asset:link rel="icon" href="favicon-sogrative-light.ico" type="image/x-ico" />
+    <asset:stylesheet src="stylesheet.css"/>
     <meta name="layout" content="main" />
     <g:set var="entityName" value="${message(code: 'answer.label', default: 'Answer')}" />
     <title><g:message code="default.show.label" args="[entityName]" /></title>
