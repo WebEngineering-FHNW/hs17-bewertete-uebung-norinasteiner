@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="layout" content="main" />
+        <title>Edit question</title>
         <asset:stylesheet src="bootstrap.css"/>
         <asset:javascript src="bootstrap.js"/>
         <asset:link rel="icon" href="favicon-sogrative-light.ico" type="image/x-ico" />
         <asset:stylesheet src="stylesheet.css"/>
-        <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'question.label', default: 'Question')}" />
-        <title><g:message code="default.edit.label" args="[entityName]" /></title>
     </head>
     <body>
         <a href="#edit-question" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
