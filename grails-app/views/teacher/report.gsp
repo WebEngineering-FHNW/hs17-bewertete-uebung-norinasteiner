@@ -11,17 +11,47 @@
 
 <body>
 
-<div>
-    <g:each var="question" in="${questionList}">
+<div class="container">
+    <h2>Report</h2>
 
-        <h1>${question.text}</h1>
+    <p>You can see the actual Report from your Students</p>
+    <table class="table tstable">
+        <tr>
+            <g:each var="i" in="${(0..questionList.size() - 1)}">
+                <th>
+                    ${questionList.get(i).text}
+                </th>
+            </g:each>
+        </tr>
+
+        <g:each var="i" in="${(0..questionList[0].answers.size() - 1)}">
+            <tr>
+                <g:each var="j" in="${(0..questionList.size() - 1)}">
+                    <g:if test="${questionList[j].answers[i] != null}">
+                        <td>
+                            ${questionList[j].answers[i].text}
+                        </td>
+                    </g:if>
+                </g:each>
+            </tr>
+        </g:each>
+    </table>
+
+</div>
+
+
+%{--<div>
+    <g:each var="question" in="${questionList}">
+        <h1 class="report">${question.text}</h1>
         <g:each var="answer" in="${question.answers}">
-            <p>
+            <p class="report">
                 ${answer.text}
             </p>
         </g:each>
     </g:each>
-</div>
+</div>--}%
+
+
 
 </body>
 </html>
