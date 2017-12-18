@@ -18,7 +18,8 @@
     <form action="/answer/save" method="post">
         <input type="hidden" name="question" value="${this.question.id}">
         <g:if test="${this.question.isTextQuestion}">
-            <textarea name="text" rows="10" placeholder="Please fill in your answer" cols="30"></textarea>
+            <textarea name="text" rows="10" placeholder="Please fill in your answer" cols="30"
+                      required="true"></textarea>
 
 
             <input type="submit">
