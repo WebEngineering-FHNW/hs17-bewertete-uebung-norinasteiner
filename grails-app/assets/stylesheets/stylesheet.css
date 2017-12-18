@@ -1,21 +1,20 @@
 
-.tsButton{
+.tsButton {
     background-color: #973F3F;
     border: none;
 }
 
-.tsButton:hover{
+.tsButton:hover {
     background-color: #424242;
     border: none;
 }
 
-.tsButton:active{
+.tsButton:active {
     background-color: #424242;
     border: none;
 }
 
-
-.footer{
+.footer {
     background-color: #292b2c;
     color: #000;
     clear: both;
@@ -26,37 +25,43 @@
 
 }
 
-.ns_logo{
+.ns_logo {
     margin-top: 30px;
 }
 
-
 .grails-logo-container {
-    background:#973F3F no-repeat 50% 30%;
+    background: #973F3F no-repeat 50% 30%;
     margin-bottom: 20px;
     color: white;
-    height:300px;
-    text-align:center;
+    height: 300px;
+    text-align: center;
     margin-top: 0px;
 }
 
 .navbar {
-    background-color: #292b2c; !important;
+    background-color: #292b2c;
     height: 80px;
     margin-bottom: 0px;
 }
 
-.h1 {
-    font-family: "Caflisch Script";
+.tsshow {
+    margin-left: 80px;
 }
 
-.tsshow{
-   margin-left: 80px;
+.report {
+    margin-left: 80px;
 }
 
-
-.content header_question{
+.content header_question {
     margin: 0.1em 1em 0.3em;
+}
+
+.tstable {
+    padding: 50px;
+    line-height: 9.42857143;
+    vertical-align: top;
+    border-top: 0px solid #ddd;
+
 }
 
 

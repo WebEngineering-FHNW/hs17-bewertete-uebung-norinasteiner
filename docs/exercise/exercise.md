@@ -34,13 +34,14 @@ How to start the project: (if other than `grailsw run-app`)
 
 How to test the project:  (if other than `grailsw test-app`)
 
-Project description:      (if other than `/index.html`) hs17-bewertete-uebung-norinasteiner/src/main/resources/public/index.html
+Project description:      (if other than `/index.html`) hs17-bewertete-uebung-norinasteiner/src/main/resources/public/index.html or http://localhost:8080/static/index.html
 
 External contributions:
 
 Other comments: 
 
-I'm particular proud of:
+I'm particular proud of: Das ist mein erstes Projekt, welches ich für das Web umgesetzt habe. Ich bin stolz darauf, 
+dass es doch einiges an Funktionen enhält. Das von Grails beeinhaltende "Scaffolding" hat mir dabei geholfen. Ausserdem habe ich mich auch darauf konzentriert, dass ich ein schönes Design bekomme. 
 
 
 ## Project grading 
