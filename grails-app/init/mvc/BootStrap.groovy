@@ -21,9 +21,8 @@ class BootStrap {
         save(new Booking(booker: dierk, room: windowRoom, date: today + 1, slot: Booking.AM))
         save(new Booking(booker: dierk, room: cornerRoom, date: today ,    slot: Booking.AM))
 
-        //TODO: löschen für abgabe
-        save(new Question(text: "How are you?"))
-        save(new Question(text: "How are you two?"))
+        save(new Question(text: "Zähle fünf Kantone auf?"))
+        save(new Question(text: "Was ist die Hauptstadt von Graubünden?"))
 
     }
 
