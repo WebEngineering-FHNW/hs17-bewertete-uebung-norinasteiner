@@ -46,4 +46,26 @@ dass es doch einiges an Funktionen enhält. Das von Grails beeinhaltende "Scaffo
 
 ## Project grading 
 
-< to be filled by lecturer>
+Description html is a bit sparse but fully valid.
+The "Answer hinzufügen" link in "Question bearbeiten" leads to error 404.
+Otherwise, the application works fine.
+
+Functionality:
+Basic navigation, user input, a little bit of validation (user input is not escaped when
+putting back on the screen, so XSS attacks are possible), small domain with CRUD features.
+
+Engineering:
+commit log is fine. Nice testing of the CRUD operations! But one test fails:
+"Test that the delete action deletes an instance if it exists" (teacher/question mixup, 
+most likely a copy-paste error).
+HTML is mostly valid with a few exceptions (button tag inside anchor tag).
+Comments and naming is ok. Good use of Web MVC and layout.
+
+I award an extra point for the nice home screen and logo.
+
+Congratulations!
+You created a nice web application with comprehensive testing and you made good use
+of the Grails framework and Web MVC.
+
+Total Grade: 5.8
+
